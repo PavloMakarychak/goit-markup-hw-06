@@ -43,7 +43,33 @@
                 <button type="button"  class="hero-button" data-modal-open>Замовити послугу</button>
                 <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
+                    <form action="">
+                        <h2 class="text-form">Залиште свої дані, ми вам передзвонимо</h2>
+                        <div class="form-field">
+                            <label for="name" class="form-label"> Ім'я</label>
+                        <input type="text" class="form-input" name="name" id="name"></div>
+                       
+                        <div class="form-field">
+                            <label for="tell" class="form-label">Телефон</label>
+                        <input type="tel" class="form-input" name="tell" id="tell"></div>
+                        
+                        <div class="form-field">
+                            <label for="mail" class="form-label">Пошта</label>
+                        <input type="email" class="form-input" name="mail" id="mail"></div>
+
+                        <div class="form-coment"><label for="coment" class="form-label">Коментар</label>
+                            <textarea name="coment" class="form-input" id="coment" placeholder="Введіть текст" cols="30" rows="10"></textarea>
+                        </div>
+                        
+                        <div class="group">
+                            <input type="checkbox" class="input-group" name="" value="mailing" id="mailing">
+                        <label for="mailing" class="label-group">Погоджуюся з розсилкою та приймаю  Умови договору</label>
+                        <button class="btn-form" type="submit">Відправити</button>
+                       </div>
+                        
+                    </form>
                     <button class="btn-modal" data-modal-close>
+
                         <svg width="30" height="30" class="hero-icons">
                             <use href="./images/icomoon/icons.svg#icon-close-black">
                             </use>
@@ -289,6 +315,13 @@
                     </a>
                 </li>
             
+            </ul>
+        </div>
+        <div class="footer-input">
+            <p class="footer-text">Підпишіться на розсилку</p>
+            <ul>
+                <li></li>
+                <li></li>
             </ul>
         </div>
        </div>
