@@ -44,28 +44,48 @@
                 <div class="backdrop is-hidden" data-modal>
                 <div class="modal">
                     <form action="">
-                        <h2 class="text-form">Залиште свої дані, ми вам передзвонимо</h2>
+                        <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
                         <div class="form-field">
                             <label for="name" class="form-label"> Ім'я</label>
-                        <input type="text" class="form-input" name="name" id="name"></div>
+                       <div class="form-icons"><input type="text" class="form-input" name="name" id="name" required>
+                        <svg  width="18" height="18" class="name-icons">
+                            <use href="./images/icomoon/icons.svg#icon-person-black"></use>
+                        </svg>
+                        
+                        </div> 
+                        </div>
                        
                         <div class="form-field">
                             <label for="tell" class="form-label">Телефон</label>
-                        <input type="tel" class="form-input" name="tell" id="tell"></div>
+                            <div class="form-icons"><input type="tel" class="form-input" name="tell" id="tell" required>
+                                <svg  width="18" height="18" class="name-icons">
+                                    <use href="./images/icomoon/icons.svg#icon-phone-black"></use>
+                                </svg>
+                        </div></div>
                         
                         <div class="form-field">
                             <label for="mail" class="form-label">Пошта</label>
-                        <input type="email" class="form-input" name="mail" id="mail"></div>
+                            <div class="form-icons"><input type="email" class="form-input" name="mail" id="mail" required>
+                                <svg  width="18" height="18" class="name-icons">
+                                    <use href="./images/icomoon/icons.svg#icon-email-black"></use>
+                                </svg>
+                        
+                    </div></div>
 
-                        <div class="form-coment"><label for="coment" class="form-label">Коментар</label>
-                            <textarea name="coment" class="form-input" id="coment" placeholder="Введіть текст" cols="30" rows="10"></textarea>
+                        <div class="form-field"><label for="coment" class="form-label">Коментар</label>
+                            <textarea name="coment" class="text-coment" id="coment" placeholder="Введіть текст"></textarea>
                         </div>
                         
                         <div class="group">
-                            <input type="checkbox" class="input-group" name="" value="mailing" id="mailing">
-                        <label for="mailing" class="label-group">Погоджуюся з розсилкою та приймаю  Умови договору</label>
+                            <input type="checkbox"  name="mailing"  id="mailing" class="input-group visually-hidden">
+                        <label for="mailing" class="label-group"><span class="check-group">
+                            <svg  width="16" height="15">
+                                <use href="./images/icomoon/icons.svg#icon-Vector"></use>
+                            </svg>
+                        </span> Погоджуюся з розсилкою та приймаю</label>
+                        <a href="/" class="modal-link">Умови договору</a>
                         <button class="btn-form" type="submit">Відправити</button>
-                       </div>
+                        </div>
                         
                     </form>
                     <button class="btn-modal" data-modal-close>
@@ -317,13 +337,21 @@
             
             </ul>
         </div>
-        <div class="footer-input">
+        <form action="" class="footer-form">
             <p class="footer-text">Підпишіться на розсилку</p>
-            <ul>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
+            <div class="footer-email">
+                <div class="footer-input"><label for=""></label>
+                <input type="email" class="" id="" placeholder="E-mail"></div>
+                <div class="footer-button">
+                    <button type="submit" class="footer-btn">Підписатися
+                        <svg width="24" height="24" class="footer-icons">
+                        <use href="./images/icomoon/icons.svg#icon-icon-send"></use>
+                    </svg></button>
+                    
+                </div>
+            </div>
+                
+        </form> 
        </div>
     
     </footer>
