@@ -37,68 +37,12 @@
     </div>
     </header>
     <main>
-          <section class="hero overlay">
+        <section class="hero overlay">
            <div class="container">
                 <h1 class="hero-title"> Ефективні рішення для вашого бізнесу</h1>
                 <button type="button"  class="hero-button" data-modal-open>Замовити послугу</button>
-                <div class="backdrop is-hidden" data-modal>
-                <div class="modal">
-                    <form action="">
-                        <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
-                        <div class="form-field">
-                            <label for="name" class="form-label"> Ім'я</label>
-                       <div class="form-icons"><input type="text" class="form-input" name="name" id="name" required>
-                        <svg  width="18" height="18" class="name-icons">
-                            <use href="./images/icomoon/icons.svg#icon-person-black"></use>
-                        </svg>
-                        
-                        </div> 
-                        </div>
-                       
-                        <div class="form-field">
-                            <label for="tell" class="form-label">Телефон</label>
-                            <div class="form-icons"><input type="tel" class="form-input" name="tell" id="tell" required>
-                                <svg  width="18" height="18" class="name-icons">
-                                    <use href="./images/icomoon/icons.svg#icon-phone-black"></use>
-                                </svg>
-                        </div></div>
-                        
-                        <div class="form-field">
-                            <label for="mail" class="form-label">Пошта</label>
-                            <div class="form-icons"><input type="email" class="form-input" name="mail" id="mail" required>
-                                <svg  width="18" height="18" class="name-icons">
-                                    <use href="./images/icomoon/icons.svg#icon-email-black"></use>
-                                </svg>
-                        
-                    </div></div>
-
-                        <div class="form-field"><label for="coment" class="form-label">Коментар</label>
-                            <textarea name="coment" class="text-coment" id="coment" placeholder="Введіть текст"></textarea>
-                        </div>
-                        
-                        <div class="group">
-                            <input type="checkbox"  name="mailing"  id="mailing" class="input-group visually-hidden">
-                        <label for="mailing" class="label-group"><span class="check-group">
-                            <svg  width="16" height="15">
-                                <use href="./images/icomoon/icons.svg#icon-Vector"></use>
-                            </svg>
-                        </span> Погоджуюся з розсилкою та приймаю</label>
-                        <a href="/" class="modal-link">Умови договору</a>
-                        <button class="btn-form" type="submit">Відправити</button>
-                        </div>
-                        
-                    </form>
-                    <button class="btn-modal" data-modal-close>
-
-                        <svg width="30" height="30" class="hero-icons">
-                            <use href="./images/icomoon/icons.svg#icon-close-black">
-                            </use>
-                        </svg>
-                    </button>
-                </div>
-                </div>
             </div>
-          </section>
+        </section>
 
         <section class="features section">
             <div class="container">
@@ -132,7 +76,7 @@
                     <p class="features-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
-        </div>
+         </div>
         </section>
         <section class="work section">
             <div class="container">
@@ -292,7 +236,7 @@
         </section>
     </main>
     <footer class="footer">
-        <div class="container">
+    <div class="container">
             <div class="footer-logo-box">
         <a href="/" class="footer logo link">Web<span class="footer-logo">Studio</span></a>
         <address>
@@ -302,8 +246,8 @@
            <li class="item"><a href="tel:+380961111111" class="footer-tel link">+38 096 111 11 11</a></li>
          </ul>
         </address>
-        </div>
-        <div class="footer-icons">
+            </div>
+            <div class="footer-icons">
             <p class="footer-text">приєднуйтесь</p>
             <ul class="footer-soc-list list">
                 <li class="footer-soc-items">
@@ -334,27 +278,84 @@
                         </svg>
                     </a>
                 </li>
-            
             </ul>
-        </div>
-        <form action="" class="footer-form">
-            <p class="footer-text">Підпишіться на розсилку</p>
-            <div class="footer-email">
-                <div class="footer-input"><label for=""></label>
-                <input type="email" class="" id="" placeholder="E-mail"></div>
-                <div class="footer-button">
-                    <button type="submit" class="footer-btn">Підписатися
-                        <svg width="24" height="24" class="footer-icons">
-                        <use href="./images/icomoon/icons.svg#icon-icon-send"></use>
-                    </svg></button>
-                    
-                </div>
             </div>
-                
-        </form> 
+            <div class="footer-form-box"><p class="footer-text">Підпишіться на розсилку</p>
+                <form action="" class="footer-form">
+                    <div class="footer-form-sub">
+                        <input type="email" class="footer-input" id="footer-mail" placeholder="E-mail">
+                    </div>
+                    <div class="footer-button">
+                        <button type="submit" class="footer-btn">Підписатися
+                            <svg width="24" height="24" class="footer-icons-btn">
+                            <use href="./images/icomoon/icons.svg#icon-icon-send"></use>
+                        </svg></button>
+                    </div>
+                </form> 
+            </div>
        </div>
-    
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <form action="">
+                <p class="text-form">Залиште свої дані, ми вам передзвонимо</p>
+                <div class="form-field">
+                    <label for="name" class="form-label"> Ім'я</label>
+               <div class="form-icons"><input type="text" class="form-input" name="name" id="name" required>
+                <svg  width="18" height="18" class="name-icons">
+                    <use href="./images/icomoon/icons.svg#icon-person-black"></use>
+                </svg>
+                
+                </div> 
+                </div>
+               
+                <div class="form-field">
+                    <label for="tell" class="form-label">Телефон</label>
+                    <div class="form-icons"><input type="tel" class="form-input" name="tell" id="tell" required>
+                        <svg  width="18" height="18" class="name-icons">
+                            <use href="./images/icomoon/icons.svg#icon-phone-black"></use>
+                        </svg>
+                </div></div>
+                
+                <div class="form-field">
+                    <label for="mail" class="form-label">Пошта</label>
+                    <div class="form-icons"><input type="email" class="form-input" name="mail" id="mail" required>
+                        <svg  width="18" height="18" class="name-icons">
+                            <use href="./images/icomoon/icons.svg#icon-email-black"></use>
+                        </svg>
+                
+            </div></div>
+
+                <div class="form-field"><label for="coment" class="form-label">Коментар</label>
+                    <textarea name="coment" class="text-coment" id="coment" placeholder="Введіть текст"></textarea>
+                </div>
+                
+
+                <div class="group">
+                    <input type="checkbox"  name="mailing"  id="mailing" class="input-group visually-hidden">
+                    
+                    <label for="mailing" class="group-label"><span class="check-group">
+                        <svg width="11" height="8" class="check-group-icons">
+                            <use href="./images/icomoon/icons.svg#icon-Vector"></use>
+                        </svg>
+                    </span>Погоджуюся з розсилкою та приймаю
+                    <a href="/" class="group-link">Умови договору</a></label>
+                 </div> 
+                 <div class="btn-form-box"><button class="btn-form" type="submit">Відправити</button></div> 
+                
+                
+                
+            </form>
+            <button class="btn-modal" data-modal-close>
+
+                <svg width="30" height="30" class="hero-icons">
+                    <use href="./images/icomoon/icons.svg#icon-close-black">
+                    </use>
+                </svg>
+            </button>
+        </div>
+        </div>
     <script src="./js/modal.js"></script>
 </body>
 </html>
