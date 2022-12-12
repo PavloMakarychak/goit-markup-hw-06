@@ -269,7 +269,6 @@ color: var(--primary-bg-color);
     display: block;
     position: absolute;
     width: 528px;
-    height: 581px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -293,6 +292,7 @@ color: var(--primary-bg-color);
     background:var(--primary-bg-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-modal:hover,
@@ -351,10 +351,13 @@ fill: var(--accent-color);
     margin-right: auto;
 }
 
+.form-field.coment{
+    margin-bottom: 20px;
+}
 
 .form-label{
 font-size: 12px;
-line-height: 1.66;
+line-height: 1.16;
 letter-spacing: 0.01em;
 color: #757575;
 margin-top: 0px;
@@ -429,7 +432,7 @@ fill: var(--primary-bg-color);
 .group-label{
     display: flex;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     justify-content: center;
     align-items: center;
     font-size: 14px;
@@ -824,8 +827,7 @@ transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 .footer-form-box{
-    margin-right: auto;
-    margin-left: 93px;
+    margin-left: auto;
 }
 
 .footer-form{
@@ -851,13 +853,18 @@ display: flex;
    outline: none;
    background-color: var(--secondary-bg-color);
    
-font-size: 16px;
-line-height: 1.25;
-display: flex;
-align-items: center;
-letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
-    
+  font-size: 16px;
+  line-height: 1.25;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-top: 15px;
+  padding-right: 295px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+
+
 }
 
 .footer-button{
